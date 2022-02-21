@@ -8,8 +8,8 @@ public interface ILinea {
 	
 	public void crear(Linea linea);
 	public void borrar(Linea linea);
-	public void actualizar(Linea linea);
-	public Linea consultarPorID();
+	public void actualizar(Linea linea, int codLineaActualizar);
+	public Linea consultarPorID(int id);
 	public List<Linea> consultarLineas();
 
 }
